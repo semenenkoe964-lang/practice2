@@ -12,7 +12,7 @@ if cipher=="1":
         if ord(i)+offset<=endAlpha:
             newTxt+=chr(ord(i)+offset)
         else:
-            newTxt += chr(ord(i) + offset-endAlpha+startAlpha)
+            newTxt += chr(ord(i) + offset-endAlpha+startAlpha-1)
 else:
     for i in txt:
         if ord(i)-offset>=startAlpha:
