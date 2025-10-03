@@ -1,6 +1,6 @@
-offset=int(input())
-cipher=input()
-txt=input()
+offset=int(input("Введите сдвиг: "))
+cipher=input("Шифр 1 , Дешифр 0: ")
+txt=input("Текст :")
 newTxt=""
 alphabet=0
 startAlpha=1040
