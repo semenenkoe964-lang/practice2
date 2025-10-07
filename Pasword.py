@@ -27,4 +27,4 @@ for text, seq in (('Включить цифры',         digits     ),
 
 password = ''.join(choices(chars, k=pwd_length))
 
-print('\n', password, '\n', sep='')
+print('\n', password, '\n')
